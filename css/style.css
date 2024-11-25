@@ -98,16 +98,15 @@ a {
 }
 .whitebutton {
     background-color: white;
-    border-radius: 30px;
-    padding: 20px;
+    border-radius: 25px;
+    padding: 15px 26px;
     margin-right: 22px;
     font-size: 15px;
 }
 .blackbutton {
     background-color: black;
-    border-radius: 30px;
-    padding: 20px;
-    font-size: 15px;
+    border-radius: 25px;
+    padding: 15px 26px
 }
 
 /* REGOLE MAIN */
@@ -116,11 +115,10 @@ a {
     justify-content: center;
     align-items: center;
     margin: 90px auto;
-    /* DEBUG */
 }
 .pg-grey {
     display: flex;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(241, 241, 241);
     justify-content: center;
     align-items: center;
     margin: 90px auto;
@@ -129,23 +127,21 @@ a {
 }
 .pg-grey1 {
     display: flex;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(241, 241, 241);
     justify-content: center;
     align-items: center;
     /* DEBUG */
     height: 900px;
 }
-
-
 .blu {
     display: flex;
     flex-basis: 72%;
     justify-content: center;
     align-items: first baseline;
     /* DEBUG */
-    height: 500px;
+    /* height: 500px;
     border: dashed 2px black;
-    background-color: rgb(1, 138, 218);
+    background-color: rgb(1, 138, 218); */
 }
 .rosa {
     display: flex;
@@ -154,9 +150,9 @@ a {
     flex-basis: 28%;
     padding-top: 29px;
     /* DEBUG */
-    height: 500px;
+    /* height: 500px;
     border: dashed 2px black;
-    background-color: rgb(233, 173, 215);
+    background-color: rgb(233, 173, 215); */
 }
 /* regole scritte */
 .secondotitolo {
@@ -173,19 +169,50 @@ a {
     width: 550px;
 }
 .verde1 {
+    display: flex;
+    flex-direction: column;
     flex-basis: 100%;
     align-items: center;
+    padding: 20px;
     /* DEBUG */
-    border: dashed 2px black;
+    /* border: dashed 2px black;
     background-color: green;
-    height: 800px;
+    height: 900px; */
 }
-
+/* regole dell'ultima pagina */
+#title-end {
+    font-size: 42px;
+    padding-bottom: 15px;
+}
+#ultimoparagrafo {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 40px;
+    line-height: 25px;
+}
+#just-chillin {
+    width: 1000px;
+}
+#titolofinale {
+    background-image: url(../img/stars.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.violet-button {
+    background-color: rgb(129, 113, 201);
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 10px 22px;
+}
 /* regole footer primo footer */
 .primofooter {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
     /* DEBUG */
     height: 760px;
     background-color: black;
@@ -206,7 +233,6 @@ a {
     background-color: rgb(0, 148, 91);
     border: dashed white 2px;
     height: 700px;
-    
 }
 
 /* regole ultimo footer */
