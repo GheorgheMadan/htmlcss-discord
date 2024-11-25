@@ -91,13 +91,11 @@ a {
     margin-bottom: 40px;
     text-align: center;
     line-height: 25px;
-
 }
 #contenitore-button {
     display: flex;
     justify-content: space-around;
 }
-
 .whitebutton {
     color: black;
     background-color: white;
@@ -167,7 +165,6 @@ a {
     font-size: 15px;
     line-height: 25px;
     padding-top: 15px;
-
 }
 .reg-img {
     width: 550px;
@@ -218,7 +215,6 @@ a {
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-    /* DEBUG */
     height: 760px;
     background-color: rgb(27, 27, 27);
 }
@@ -277,7 +273,6 @@ li {
     align-items: end;
     justify-content: center;
     height: 100px;
-    /* DEBUG */
     background-color: rgb(27, 27, 27);   
 }
 .sfondoverde {
